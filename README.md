@@ -27,10 +27,10 @@ Bem-vindo a  minha **Galeria de Fotos**, um site simples e responsivo desenvolvi
 
 - **Design Responsivo**: O layout se adapta a diferentes tamanhos de tela, incluindo desktops, tablets e celulares. Exemplo de celular e tablet:
 <div>
-  <img src="img/telaCelular.png" alt="Recomendações" style=" width: 20vw; height: 50vh;">   
-  <img src="img/telaCelular2.png" alt="Recomendações" style="width:  20vw; height: 50vh;">
-  <img src="img/telaTablet.png" alt="Recomendações" style="width:  20vw; height: 50vh;">  
-  <img src="img/telaTablet2.png" alt="Recomendações" style=" width: 20vw; height: 50vh;">
+  <img src="img/telaCelular.png" alt="Recomendações" style=" width: 15vw; height: 50vh;">   
+  <img src="img/telaCelular2.png" alt="Recomendações" style="width:  15vw; height: 50vh;">
+  <img src="img/telaTablet.png" alt="Recomendações" style="width:  15vw; height: 50vh;">  
+  <img src="img/telaTablet2.png" alt="Recomendações" style=" width: 15vw; height: 50vh;">
 </div>
 
 ---
