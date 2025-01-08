@@ -9,21 +9,21 @@ Bem-vindo a  minha **Galeria de Fotos**, um site simples e responsivo desenvolvi
   <img src="img/inicio.png" alt="Recomendações" style=" width: 40vw; height: 35vh;">   
 </div>
 
-|----------------------------------|-----------------------------------|----------------------------------|-----------------------------------|
+|----------------------------------|-----------------------------------|
 
 - **Detalhes das Fotos**: Ao clicar em uma imagem, uma modal é exibida com informações adicionais.
 <div>
   <img src="img/modal.png" alt="Recomendações" style=" width: 40vw; height: 35vh;">  
 </div>
 
-|----------------------------------|-----------------------------------|----------------------------------|-----------------------------------|
+|----------------------------------|-----------------------------------|
 
 - **Pesquisa Dinâmica**: Permite buscar imagens pelo título usando o campo de pesquisa.
 <div>
   <img src="img/pesquisar.png" alt="Recomendações" style="width:  40vw; height: 35vh;">  
 </div>
 
-|----------------------------------|-----------------------------------|----------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|------------|
+|----------------------------------|-----------------------------------|
 
 - **Design Responsivo**: O layout se adapta a diferentes tamanhos de tela, incluindo desktops, tablets e celulares. Exemplo de celular e tablet:
 <div>
