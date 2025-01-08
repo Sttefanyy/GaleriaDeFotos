@@ -53,10 +53,10 @@ O projeto está estruturado em três arquivos principais:
 
 ## 🎨 Design
 
-O design deste projeto foi guiado por funcionalidade e experiência do usuário, priorizando uma interface intuitiva, atraente e responsiva. Adotou-se um estilo minimalista, com layout limpo, uso eficiente de espaços em branco e tipografia moderna para destacar conteúdos importantes, como a galeria de imagens.
+O design deste projeto foi feito pensando na funcionalidade e experiência do usuário, priorizando uma interface intuitiva, atraente e responsiva. Adotou-se um estilo minimalista, com layout limpo e uso eficiente de espaços em branco.
 
 Para as cores, escolhi uma paleta neutra, com tons suaves que proporcionam um contraste adequado e não sobrecarregam a visão. Isso cria um ambiente visual confortável e profissional, reforçando a identidade do projeto. Além disso, os detalhes em cores de destaque foram utilizados para guiar a atenção do usuário, como no botão de fechar o modal e nos elementos interativos.
 
-A responsividade foi uma prioridade, com um grid que permite à galeria ajustar-se dinamicamente a diferentes tamanhos de tela, garantindo uma experiência consistente em dispositivos móveis, tablets e desktops. Animações suaves foram escolhidas para as transições no modal, adicionando modernidade sem comprometer o desempenho, equilibrando funcionalidade e estética para uma experiência fluida e agradável.
+A responsividade foi uma prioridade, com um grid que permite à galeria ajustar-se dinamicamente a diferentes tamanhos de tela, garantindo uma experiência consistente em dispositivos móveis, tablets e desktops. Animações suaves foram escolhidas para as transições no modal, equilibrando funcionalidade e estética para uma experiência fluida e agradável.
 
 
