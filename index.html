@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galeria de Fotos</title>
+  <link rel="stylesheet" href="Style/style.css"> <!-- Caminho correto para o CSS -->
+</head>
+<body>
+
+  <header class="header">
+    <h1 id="title">Galeria de Fotos!</h1>
+    <div class="pesquisar-container">
+      <input type="text" id="pesquisar" onkeyup="pesquisarImagens()" placeholder="Pesquisar por título...">
+      <img src="img/lupa.png" alt="Ícone de Pesquisa" class="pesquisar-icone">
+    </div>
+  </header>
+  
+  <div class="container">
+
+    <section>
+     
+      <div class="grid-item">
+        <div onclick="acao(this)" class="containerImage">
+          <img src="img/dogCaramelo.jpg" alt="Imagem 1">
+        </div>
+        <h3 class="item-title">Rex</h3>
+        <div class="modal">
+          <div onclick="fechar(this)" class="fechar"><span>X</span></div>
+          <h2 class="h2Modal">Rex, o Aventureiro de Quatro Patas</h2>
+          <div class="gridModal">
+            <p class="pModal">
+              Oi, pessoal! Me chamo Rex e sou um verdadeiro aventureiro de quatro patas. Minha energia é praticamente inesgotável, e estou sempre pronto para qualquer desafio que envolva correr, pular e explorar. Meu pelo macio é irresistível ao toque, e meus olhos brilhantes expressam toda a animação que carrego dentro de mim. Se você está em busca de um amigo leal para se juntar às suas aventuras, conte comigo!
+            </p>
+            <div class="imageModal"><img src="img/dogCaramelo.jpg" /></div>
+          </div>
+        </div>
+      </div>
+     
+      <div class="grid-item">
+        <div onclick="acao(this)" class="containerImage">
+          <img src="img/dog1.jpg" alt="Imagem 1">
+        </div>
+        <h3 class="item-title">Bella</h3>
+        <div class="modal">
+          <div onclick="fechar(this)" class="fechar"><span>X</span></div>
+          <h2 class="h2Modal">Bella, a Charmosa de Pelagem Sedosa</h2>
+          <div class="gridModal">
+            <p class="pModal">
+              Olá, queridos humanos! Eu sou a Bella, uma cachorrinha charmosa com uma pelagem sedosa que vai encantar até os corações mais frios. Minha elegância é notável, e meu olhar cativante é minha principal arma para conquistar amigos. Sou apaixonada por brincadeiras e adoro receber carinho. Se você procura uma companhia encantadora, estou aqui para iluminar seus dias.
+            </p>
+            <div class="imageModal"><img src="img/dog1.jpg" /></div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="grid-item">
+        <div onclick="acao(this)" class="containerImage">
+          <img src="img/dog2.jpg" alt="Imagem 1">
+        </div>
+        <h3 class="item-title">Thor</h3>
+        <div class="modal">
+          <div onclick="fechar(this)" class="fechar"><span>X</span></div>
+          <h2 class="h2Modal">Thor, o Protetor Fiel da Família</h2>
+          <div class="gridModal">
+            <p class="pModal">
+             Thor se apresentando! Sou um cachorro de porte imponente e coração leal. Meu principal propósito é ser o protetor número um da minha família. Sempre atento e disposto, estou pronto para brincar e, ao mesmo tempo, zelar pela segurança do lar. Se você quer um amigo leal e corajoso, não precisa procurar mais. Estou aqui para fazer parte da sua vida!
+            </p>
+            <div class="imageModal"><img src="img/dog2.jpg" /></div>
+          </div>
+        </div>
+      </div>
+
+      
+
+      <div class="grid-item">
+        <div onclick="acao(this)" class="containerImage">
+          <img src="img/dog3.jpg" alt="Imagem 1">
+        </div>
+        <h3 class="item-title">Luna</h3>
+        <div class="modal">
+          <div onclick="fechar(this)" class="fechar"><span>X</span></div>
+          <h2 class="h2Modal">Luna, a Saltitante Alegria de Quatro Patas</h2>
+          <div class="gridModal">
+            <p class="pModal">
+              Oi, pessoal! Eu sou a Luna, a cachorrinha mais saltitante e alegre que você já viu. Com minha energia contagiante, estou sempre pronta para trazer sorrisos e diversão para qualquer ambiente. Minhas orelhas estão sempre atentas, e meu olhar expressivo revela todo o amor que tenho para oferecer. Vamos brincar e espalhar alegria juntos?
+            </p>
+            <div class="imageModal"><img src="img/dog3.jpg" /></div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="grid-item">
+        <div onclick="acao(this)" class="containerImage">
+          <img src="img/dog4.jpg" alt="Imagem 1">
+        </div>
+        <h3 class="item-title">Max</h3>
+        <div class="modal">
+          <div onclick="fechar(this)" class="fechar"><span>X</span></div>
+          <h2 class="h2Modal">Max, o Companheiro Peludo das Noites Frias</h2>
+          <div class="gridModal">
+            <p class="pModal">
+              Max aqui, seu companheiro perfeito para as noites frias! Com minha pelagem fofinha e olhos expressivos, estou sempre pronto para um bom filme ao seu lado, proporcionando calor e afeto. Além disso, adoro receber carinho e garantir que você se sinta confortável e amado. Se quiser uma companhia aconchegante, estou aqui para preencher seu coração.
+            </p>
+            <div class="imageModal"><img src="img/dog4.jpg" /></div>
+          </div>
+        </div>
+      </div>
+
+
+
+<div class="grid-item">
+  <div onclick="acao(this)" class="containerImage">
+    <img src="img/dog5.jpg" alt="Imagem 1">
+  </div>
+  <h3 class="item-title">Maya</h3>
+  <div class="modal">
+    <div onclick="fechar(this)" class="fechar"><span>X</span></div>
+    <h2 class="h2Modal">Maya, a Atleta Veloz de Patas Ágeis</h2>
+    <div class="gridModal">
+      <p class="pModal">
+        E aí, galera? Eu sou a Maya, a cachorrinha atleta com patas ágeis e uma disposição incansável para correr e brincar. Sou a parceira perfeita para atividades ao ar livre, e adoro desafios que testem meus limites físicos. Se você quer um amigo para te acompanhar em aventuras cheias de movimento, estou pronta para a ação!
+      </p>
+      <div class="imageModal"><img src="img/dog5.jpg" /></div>
+    </div>
+  </div>
+</div>
+
+<div class="grid-item">
+  <div onclick="acao(this)" class="containerImage">
+    <img src="img/dog6.jpg" alt="Imagem 1">
+  </div>
+  <h3 class="item-title">Toby</h3>
+  <div class="modal">
+    <div onclick="fechar(this)" class="fechar"><span>X</span></div>
+    <h2 class="h2Modal">Toby, o Cachorro Sorridente de Orelhas Empolgadas</h2>
+    <div class="gridModal">
+      <p class="pModal">
+        Olá, pessoal! Toby é meu nome, e sou o cachorro mais sorridente e empolgado que você vai conhecer. Com minhas orelhas sempre para cima, estou aqui para alegrar seu dia com meu sorriso contagiante. Brincadeiras e momentos divertidos são o que mais amo. Quem está pronto para compartilhar risadas e alegria comigo?
+      </p>
+      <div class="imageModal"><img src="img/dog6.jpg" /></div>
+    </div>
+  </div>
+</div>
+
+<div class="grid-item">
+  <div onclick="acao(this)" class="containerImage">
+    <img src="img/dog7.jpg" alt="Imagem 1">
+  </div>
+  <h3 class="item-title">Daisy</h3>
+  <div class="modal">
+    <div onclick="fechar(this)" class="fechar"><span>X</span></div>
+    <h2 class="h2Modal">Daisy, a Encantadora de Todos com Seu Olhar Doce</h2>
+    <div class="gridModal">
+      <p class="pModal">
+        Oi, queridos amigos! Sou a Daisy, uma cachorrinha encantadora com um olhar doce capaz de conquistar corações. Minha personalidade é tão macia quanto minha pelagem, e estou sempre pronta para fazer novas amizades. Se você busca uma companhia gentil e amorosa, estou aqui para espalhar carinho e receber todo o amor que você tem para dar.
+      </p>
+      <div class="imageModal"><img src="img/dog7.jpg" /></div>
+    </div>
+  </div>
+</div>
+
+<div class="grid-item">
+  <div onclick="acao(this)" class="containerImage">
+    <img src="img/dog8.jpg" alt="Imagem 1">
+  </div>
+  <h3 class="item-title">Rocky</h3>
+  <div class="modal">
+    <div onclick="fechar(this)" class="fechar"><span>X</span></div>
+    <h2 class="h2Modal">Rocky, o Explorador Curioso de Nariz Afiado</h2>
+    <div class="gridModal">
+      <p class="pModal">
+        Rocky se apresentando para a aventura! Sou o explorador curioso com um nariz afiado pronto para descobrir todos os segredos do mundo ao meu redor. Cheirar é minha paixão, e estou sempre em busca de novas experiências. Se você deseja um amigo disposto a explorar a vida contigo, conte comigo para trazer novidades a cada dia!
+      </p>
+      <div class="imageModal"><img src="img/dog8.jpg" /></div>
+    </div>
+  </div>
+</div>
+
+
+<div class="grid-item">
+  <div onclick="acao(this)" class="containerImage">
+    <img src="img/dog9.jpg" alt="Imagem 1">
+  </div>
+  <h3 class="item-title">Mia</h3>
+  <div class="modal">
+    <div onclick="fechar(this)" class="fechar"><span>X</span></div>
+    <h2 class="h2Modal">Mia, a Cachorrinha Artista de Patas Criativas</h2>
+    <div class="gridModal">
+      <p class="pModal">
+        Oi, pessoal! Eu sou a Mia, a cachorrinha mais artista da região. Com minhas patas criativas, adoro brincar com tintas e criar verdadeiras obras-primas no chão. Se você tem alma de artista ou simplesmente quer se divertir com minhas habilidades peculiares, estou aqui para encher sua vida de cor e criatividade!
+      </p>
+      <div class="imageModal"><img src="img/dog8.jpg" /></div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="grid-item">
+  <div onclick="acao(this)" class="containerImage">
+    <img src="img/dog10.jpg" alt="Imagem 1">
+  </div>
+  <h3 class="item-title">Cooper</h3>
+  <div class="modal">
+    <div onclick="fechar(this)" class="fechar"><span>X</span></div>
+    <h2 class="h2Modal">Cooper, o Brincalhão de Rosto Engraçado</h2>
+    <div class="gridModal">
+      <p class="pModal">
+        E aí, galera? Cooper é meu nome, e sou o cachorro mais brincalhão com o rosto mais engraçado que você vai encontrar. Adoro fazer caretas e brincar o dia todo. Se você está em busca de diversão garantida, é só me chamar! Meu objetivo é arrancar risadas e alegrar seu dia com minha presença hilária.
+      </p>
+      <div class="imageModal"><img src="img/dog10.jpg" /></div>
+    </div>
+  </div>
+</div>
+
+<div class="grid-item">
+  <div onclick="acao(this)" class="containerImage">
+    <img src="img/dog11.jpg" alt="Imagem 1">
+  </div>
+  <h3 class="item-title">Zoey</h3>
+  <div class="modal">
+    <div onclick="fechar(this)" class="fechar"><span>X</span></div>
+    <h2 class="h2Modal">Zoey, a Elegância de Pernas Longas e Olhos Cativantes</h2>
+    <div class="gridModal">
+      <p class="pModal">
+        Olá, seres humanos! Eu sou a Zoey, a cachorrinha da elegância com pernas longas e olhos cativantes. Além de ser uma verdadeira modelo canina, adoro passeios tranquilos e momentos de carinho. Se você procura uma companheira sofisticada e cheia de charme, estou aqui para encher sua vida de elegância e amor.
+      </p>
+      <div class="imageModal"><img src="img/dog11.jpg" /></div>
+    </div>
+  </div>
+</div>
+
+<div class="grid-item">
+  <div onclick="acao(this)" class="containerImage">
+    <img src="img/dog12.jpg" alt="Imagem 1">
+  </div>
+  <h3 class="item-title">Simba</h3>
+  <div class="modal">
+    <div onclick="fechar(this)" class="fechar"><span>X</span></div>
+    <h2 class="h2Modal">Simba, o Intelectual de Focinho Inteligente</h2>
+    <div class="gridModal">
+      <p class="pModal">
+        Simba à vista! Sou o cachorro mais intelectual da turma, com um focinho inteligente e uma curiosidade insaciável. Adoro aprender truques novos e desafios mentais. Se você quer um amigo para exercitar os cérebros juntos, estou aqui para mostrar que a inteligência também é uma qualidade canina!
+      </p>
+      <div class="imageModal"><img src="img/dog12.jpg" /></div>
+    </div>
+  </div>
+</div>
+
+
+<div class="grid-item">
+  <div onclick="acao(this)" class="containerImage">
+    <img src="img/dog13.jpg" alt="Imagem 1">
+  </div>
+  <h3 class="item-title">Penny</h3>
+  <div class="modal">
+    <div onclick="fechar(this)" class="fechar"><span>X</span></div>
+    <h2 class="h2Modal">Penny, a Peluda de Patas Saltitantes e Língua de Fora</h2>
+    <div class="gridModal">
+      <p class="pModal">
+        Oi, pessoal! Penny é meu nome, e sou a cachorrinha peluda com patas saltitantes e língua sempre de fora. Com minha energia contagiante, estou aqui para animar qualquer dia. Se você busca uma amizade cheia de brincadeiras e momentos divertidos, estou pronta para atender ao chamado. Adoro correr e pular, e minhas patas saltitantes estão sempre prontas para a próxima aventura. 
+      </p>
+      <div class="imageModal"><img src="img/dog13.jpg" /></div>
+    </div>
+  </div>
+</div>
+
+<div class="grid-item">
+  <div onclick="acao(this)" class="containerImage">
+    <img src="img/dog14.jpg" alt="Imagem 1">
+  </div>
+  <h3 class="item-title">Oliver</h3>
+  <div class="modal">
+    <div onclick="fechar(this)" class="fechar"><span>X</span></div>
+    <h2 class="h2Modal">Oliver, o Elegante de Pernas Longas e Postura Impecável</h2>
+    <div class="gridModal">
+      <p class="pModal">
+        Olá, humanos elegantes! Eu sou o Oliver, o cachorro da postura impecável com pernas longas e elegância inigualável. Adoro passeios sofisticados e momentos de tranquilidade. Se você valoriza a companhia de um amigo refinado e charmoso, estou pronto para ser seu parceiro nessa jornada elegante.
+      </p>
+      <div class="imageModal"><img src="img/dog14.jpg" /></div>
+    </div>
+  </div>
+</div>
+
+<div class="grid-item">
+  <div onclick="acao(this)" class="containerImage">
+    <img src="img/dog15.jpg" alt="Imagem 1">
+  </div>
+  <h3 class="item-title">Duke</h3>
+  <div class="modal">
+    <div onclick="fechar(this)" class="fechar"><span>X</span></div>
+    <h2 class="h2Modal">Duke, o Peludo de Coração Gentil e Latido Amigável</h2>
+    <div class="gridModal">
+      <p class="pModal">
+        Duke na área! Com meu coração gentil e latido amigável, sou o cachorro perfeito para quem busca uma companhia leal e carinhosa. Adoro estar perto das pessoas, compartilhar carinho e trazer alegria aos que estão ao meu redor. Se você quer um amigo peludo cheio de amor para dar, estou aqui para fazer parte da sua vida!
+      </p>
+      <div class="imageModal"><img src="img/dog15.jpg" /></div>
+    </div>
+  </div>
+</div>
+
+<div class="grid-item">
+  <div onclick="acao(this)" class="containerImage">
+    <img src="img/dog21.jpg" alt="Imagem 1">
+  </div>
+  <h3 class="item-title">Lucy</h3>
+  <div class="modal">
+    <div onclick="fechar(this)" class="fechar"><span>X</span></div>
+    <h2 class="h2Modal">Lucy, a Cachorrinha Sorridente de Orelhas Engraçadas</h2>
+    <div class="gridModal">
+      <p class="pModal">
+        Oi, pessoal! Eu sou a Lucy, a cachorrinha mais sorridente com orelhas engraçadas. Com minha alegria contagiante, estou aqui para fazer seu dia mais feliz. Brincadeiras e momentos descontraídos são minha especialidade. Quem quer compartilhar risadas e alegria comigo?
+      </p>
+      <div class="imageModal"><img src="img/dog21.jpg" /></div>
+    </div>
+  </div>
+</div>
+
+<div class="grid-item">
+  <div onclick="acao(this)" class="containerImage">
+    <img src="img/dog20.jpg" alt="Imagem 1">
+  </div>
+  <h3 class="item-title">Sadie</h3>
+  <div class="modal">
+    <div onclick="fechar(this)" class="fechar"><span>X</span></div>
+    <h2 class="h2Modal">Sadie, a Doce Cachorrinha de Pelagem Dourada</h2>
+    <div class="gridModal">
+      <p class="pModal">
+        Oi, pessoal! Eu sou a Sadie, a cachorrinha mais doce com pelagem dourada e olhos encantadores. Sempre pronta para distribuir amor e receber carinho, estou em busca de amigos para compartilhar minha alegria. Se você procura uma companhia afetuosa e cheia de luz, estou aqui para iluminar seus dias
+      </p>
+      <div class="imageModal"><img src="img/dog20.jpg" /></div>
+    </div>
+  </div>
+</div>
+
+
+<div class="grid-item">
+  <div onclick="acao(this)" class="containerImage">
+    <img src="img/dog18.jpg" alt="Imagem 1">
+  </div>
+  <h3 class="item-title">Ziggy</h3>
+  <div class="modal">
+    <div onclick="fechar(this)" class="fechar"><span>X</span></div>
+    <h2 class="h2Modal">Ziggy, o Aventureiro de Pelo Bagunçado e Espírito Livre</h2>
+    <div class="gridModal">
+      <p class="pModal">
+        Ziggy, o aventureiro de pelo bagunçado e espírito livre! Sou o cãozinho que adora explorar o mundo e se divertir em cada nova descoberta. Se você procura um amigo para se aventurar e viver intensamente, estou sempre pronto para mais uma jornada. Meus pelos bagunçados são a prova do quanto adoro brincar e me divertir.
+      </p>
+      <div class="imageModal"><img src="img/dog18.jpg" /></div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="grid-item">
+  <div onclick="acao(this)" class="containerImage">
+    <img src="img/dog19.jpg" alt="Imagem 1">
+  </div>
+  <h3 class="item-title">Riley</h3>
+  <div class="modal">
+    <div onclick="fechar(this)" class="fechar"><span>X</span></div>
+    <h2 class="h2Modal">Riley, o Cachorro Sorridente de Patas Brincalhonas</h2>
+    <div class="gridModal">
+      <p class="pModal">
+        E aí, galera! Eu sou o Riley, o cachorro sorridente com patas brincalhonas. Adoro correr e brincar o dia todo, sempre buscando formas de espalhar felicidade. Se você está em busca de um amigo animado e cheio de energia, estou pronto para compartilhar momentos divertidos e alegres com você!
+      </p>
+      <div class="imageModal"><img src="img/dog19.jpg" /></div>
+    </div>
+  </div>
+</div>
+
+<div class="grid-item">
+  <div onclick="acao(this)" class="containerImage">
+    <img src="img/dog22.jpg" alt="Imagem 1">
+  </div>
+  <h3 class="item-title">Mia</h3>
+  <div class="modal">
+    <div onclick="fechar(this)" class="fechar"><span>X</span></div>
+    <h2 class="h2Modal">Mia, a Cachorrinha Musical de Latido Melódico</h2>
+    <div class="gridModal">
+      <p class="pModal">
+        Olá, pessoal! Eu sou a Mia, a cachorrinha musical com um latido melódico. Adoro cantarolar enquanto brinco e estou sempre em busca de parceiros para uma serenata canina. Se você aprecia uma boa música e quer um amigo afinado para alegrar seus dias, estou aqui para trazer um toque musical à sua vida!
+      </p>
+      <div class="imageModal"><img src="img/dog22.jpg" /></div>
+    </div>
+  </div>
+</div>
+
+<div class="grid-item">
+  <div onclick="acao(this)" class="containerImage">
+    <img src="img/dog25.jpg" alt="Imagem 1">
+  </div>
+  <h3 class="item-title">Coco</h3>
+  <div class="modal">
+    <div onclick="fechar(this)" class="fechar"><span>X</span></div>
+    <h2 class="h2Modal">Coco, o Peludinho de Orelhas Caídas e Amor Infinito</h2>
+    <div class="gridModal">
+      <p class="pModal">
+        Coco chegou para derreter corações! Sou o peludinho de orelhas caídas com uma dose infinita de amor para dar. Estou sempre pronto para receber carinho e retribuir com lambidas e abraços. Se você quer um amigo fofo e carinhoso, estou aqui para espalhar amor e alegria em sua vida.
+      </p>
+      <div class="imageModal"><img src="img/dog25.jpg" /></div>
+    </div>
+  </div>
+</div>
+
+<div class="grid-item">
+  <div onclick="acao(this)" class="containerImage">
+    <img src="img/dog24.jpg" alt="Imagem 1">
+  </div>
+  <h3 class="item-title">Nala</h3>
+  <div class="modal">
+    <div onclick="fechar(this)" class="fechar"><span>X</span></div>
+    <h2 class="h2Modal">Nala, a Peluda de Olhar Misterioso e Atitude Independente</h2>
+    <div class="gridModal">
+      <p class="pModal">
+        Oi, pessoal! Eu sou a Nala, a cachorrinha peluda com olhar misterioso e atitude independente. Adoro ter meu espaço, mas também curto bons momentos de carinho. Se você valoriza a individualidade e busca uma amizade única, estou aqui para ser sua companheira leal e independente.
+      </p>
+      <div class="imageModal"><img src="img/dog24.jpg" /></div>
+    </div>
+  </div>
+</div>
+
+<div class="grid-item">
+  <div onclick="acao(this)" class="containerImage">
+    <img src="img/dog26.jpg" alt="Imagem 1">
+  </div>
+  <h3 class="item-title">Winston</h3>
+  <div class="modal">
+    <div onclick="fechar(this)" class="fechar"><span>X</span></div>
+    <h2 class="h2Modal">Winston, o Gentil de Olhar Bondoso e Patas Amigáveis</h2>
+    <div class="gridModal">
+      <p class="pModal">
+        Winston aqui! Com meu olhar bondoso e patas amigáveis, sou o cachorro mais gentil que você vai conhecer. Estou sempre pronto para oferecer conforto e amizade sincera. Se você busca um companheiro leal e amoroso, estou aqui para preencher sua vida com gentileza e carinho.
+      </p>
+      <div class="imageModal"><img src="img/dog26.jpg" /></div>
+    </div>
+  </div>
+</div>
+
+
+<div class="grid-item">
+  <div onclick="acao(this)" class="containerImage">
+    <img src="img/dog16.jpg" alt="Imagem 1">
+  </div>
+  <h3 class="item-title">Daisy</h3>
+  <div class="modal">
+    <div onclick="fechar(this)" class="fechar"><span>X</span></div>
+    <h2 class="h2Modal">Daisy, o Gentil de Olhar Bondoso e Patas Amigáveis</h2>
+    <div class="gridModal">
+      <p class="pModal">
+        Oi, sou a Dayse! Com meu olhar doce e um coração cheio de amor, sou a amiga perfeita para qualquer aventura ou momento de carinho. Sempre pronta para oferecer um sorriso e uma patinha amiga, minha lealdade e afeto são meus maiores tesouros. Se você busca um companheiro fiel e carinhoso para dividir os melhores momentos da vida, estou aqui para encher seu mundo de alegria e ternura.      </p>
+      <div class="imageModal"><img src="img/dog16.jpg" /></div>
+    </div>
+  </div>
+</div>
+
+    </section>
+
+  </div>
+
+  <script src="Javascript/script.js"></script>
+
+ <script src="Javascript/pesquisar.js"></script>
+
+  <footer>
+    <p id="rodape">&copy;© 2024 Galeria de Fotos. Todos os direitos reservados</p>
+  </footer>
+
+</body>
+</html>
