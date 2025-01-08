@@ -2,6 +2,8 @@
 
 Bem-vindo a  minha **Galeria de Fotos**, um site simples e responsivo desenvolvido em HTML, CSS e JavaScript para exibir fotos com informações detalhadas de cada imagem. 
 
+Visite o projeto aqui: [GaleriaDeFotos](https://sttefanyy.github.io/GaleriaDeFotos/) 
+
 ## 📋 Funcionalidades
 
 - **Exibição de Imagens**: As fotos são organizadas em um grid responsivo.
